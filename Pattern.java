@@ -26,7 +26,7 @@ public class Pattern{
     public static void triangle(int rows){
         int totalRows = rows;
         int currentRow = 1;
-        while (currentRow < totalRows){
+        while (currentRow <= totalRows){
             int i = 0;
             while (i < currentRow) {
                 System.out.print(currentRow);
